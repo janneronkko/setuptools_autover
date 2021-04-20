@@ -4,16 +4,34 @@
 #
 #    pip-compile --output-file=requirements/pytest.txt requirements/pytest.in
 #
-attrs==19.3.0             # via pytest
-mako==1.1.2               # via -r requirements/pytest.in
-markupsafe==1.1.1         # via mako
-more-itertools==8.2.0     # via pytest
-packaging==20.3           # via -r requirements/pytest.in, pytest
-pluggy==0.13.1            # via pytest
-py==1.8.1                 # via pytest
-pyparsing==2.4.7          # via packaging
-pytest-mock==3.0.0        # via -r requirements/pytest.in
-pytest-subprocess==0.1.3  # via -r requirements/pytest.in
-pytest==5.4.1             # via -r requirements/pytest.in, pytest-mock, pytest-subprocess
-six==1.14.0               # via packaging
-wcwidth==0.1.9            # via pytest
+attrs==19.3.0
+    # via pytest
+mako==1.1.2
+    # via -r pytest.in
+markupsafe==1.1.1
+    # via mako
+more-itertools==8.2.0
+    # via pytest
+packaging==20.3
+    # via
+    #   -r pytest.in
+    #   pytest
+pluggy==0.13.1
+    # via pytest
+py==1.10.0
+    # via pytest
+pyparsing==2.4.7
+    # via packaging
+pytest-mock==3.0.0
+    # via -r pytest.in
+pytest-subprocess==0.1.3
+    # via -r pytest.in
+pytest==5.4.1
+    # via
+    #   -r pytest.in
+    #   pytest-mock
+    #   pytest-subprocess
+six==1.14.0
+    # via packaging
+wcwidth==0.1.9
+    # via pytest
